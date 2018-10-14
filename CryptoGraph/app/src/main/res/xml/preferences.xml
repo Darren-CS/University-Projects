@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Display Settings"
+        android:key="sort_settings">
+
+        <CheckBoxPreference
+            android:key="change_sort_by"
+            android:title="Sort by name"
+            android:summary="Sort by coin name, default sorts by abbreviation"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Update Settings"
+        android:key="update_category">
+
+        <CheckBoxPreference
+            android:key="change_update"
+            android:title="Update on mobile data"
+            android:summary="Default updates on WiFi"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
